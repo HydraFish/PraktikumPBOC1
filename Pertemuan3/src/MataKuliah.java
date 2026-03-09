@@ -64,6 +64,6 @@ public class MataKuliah {
     /******METHOD LAIN******/
     //mencetak nilai idMatkul, nama, dan sks MataKuliah
     public void printMatKul(){
-        System.out.println("isMatkul: " + idMatKul + ", Nama: " + nama + ", Sks: " + sks);
+        System.out.println("idMatkul: " + idMatKul + ", Nama: " + nama + ", Sks: " + sks);
     }
 }

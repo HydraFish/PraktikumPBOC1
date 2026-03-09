@@ -126,12 +126,28 @@ public class Mahasiswa {
         System.out.println("Nama: " + nama);
         System.out.println("Prodi: " + prodi);
         int i;
-        for(i=0;i<listMatKul.size();i++){
-            System.out.println(listMatKul.get(i).getNama());
+        if (listMatKul.size() == 0) {
+            System.out.println("Belum mengambil matkul");
         }
-        System.out.println("Dosen walinya adalah:");
-        dosenWali.printDosen();
-        System.out.println("Kendaraannya adalah:");
-        kendaraan.printKendaraan();
+        else {
+            System.out.println("Matkul yang diambil adalah:");
+            for(i=0;i<listMatKul.size();i++){
+                System.out.println(listMatKul.get(i).getNama());
+            }
+        }
+        if (dosenWali != null) {
+            System.out.println("Dosen walinya adalah:");
+            dosenWali.printDosen();
+        }
+        else {
+            System.out.println("Doswal belum ada");
+        }
+        if (kendaraan != null) {
+            System.out.println("Kendaraannya adalah:");
+            kendaraan.printKendaraan();
+        }
+        else {
+            System.out.println("Kendaraan tidak punya");
+        }
     }
 }
