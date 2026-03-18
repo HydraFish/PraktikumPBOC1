@@ -41,6 +41,10 @@ public class MainBangunDatar {
 
         /******REALISASI CLASS BangunDatar******/ 
         BangunDatar B1 = new Persegi(5, "Hijau", "Putih"); //membuat objek bangun datar B1 berupa persegi dengan panjang sisi5, warna hijau, dan border putih
+        B1.getJmlSisi(); //mengambil jumlah sisi bangun datar B1
+        B1.getWarna(); //mengambil warna bangun datar B1
+        B1.getBorder(); //mengambil border bangun datar B1
+        ((Persegi) B1).getSisi(); //mengambil panjang sisi bangun datar B1
         B1.printInfo(); //mengeluarkan info jmlSisi, warna, border, dan panjang sisi dari bangun datar persegi B1
 
         BangunDatar B2 = new Persegi(); //membuat objek bangun datar B1 berupa persegi dengan nilai default
