@@ -25,15 +25,15 @@ public class Lingkaran extends BangunDatar{
 
     //SELEKTOR
     //mengembalikan nilai jmljari Lingkaran
-    public double getjari(){
+    public double getJari(){
         return jari;
     }
 
 
     //MUTATOR
-    //mengeset nilai jmljari dengan jmljari
-    public void setjari(int newjari){
-        this.jari = newjari;
+    //mengeset nilai jmljari dengan newjari
+    public void setJari(int newJari){
+        this.jari = newJari;
     }
 
 
@@ -48,6 +48,7 @@ public class Lingkaran extends BangunDatar{
         return 2 * Math.PI * this.jari;
     }
 
+    //mengeluarkan info lingkaran yaitu jmlSisi, warna, border, dan panjang jari jari
     @Override
     public void printInfo(){
         super.printInfo();

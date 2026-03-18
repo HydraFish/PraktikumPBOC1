@@ -49,17 +49,17 @@ public class BangunDatar {
 
 
     //MUTATOR
-    //mengeset nilai jmlSisi dengan jmlSisi
+    //mengeset nilai jmlSisi dengan newJmlSisi
     public void setJmlSisi(int newJmlSisi){
         this.jmlSisi = newJmlSisi;
     }
 
-    //mengeset nilai warna dengan warna
+    //mengeset nilai warna dengan newWarna
     public void setWarna(String newWarna){
         this.warna = newWarna;
     }
 
-    //mengeset nilai border dengan border
+    //mengeset nilai border dengan newBorder
     public void setBorder(String newBorder){
         this.border = newBorder;
     }
@@ -73,6 +73,7 @@ public class BangunDatar {
        System.out.println("Border: " + border);
     }
 
+    //mengeluarkan jumlah objek BangunDatar yang telah dibuat
     public static void printCounterBangunDatar(){
         System.err.println("Jumlah Objek Bangun Datar: " + counterBangunDatar);
     }

@@ -31,7 +31,7 @@ public class Persegi extends BangunDatar{
 
 
     //MUTATOR
-    //mengeset nilai jmlSisi dengan jmlSisi
+    //mengeset nilai jmlSisi dengan newSisi
     public void setSisi(int newSisi){
         this.sisi = newSisi;
     }
@@ -48,11 +48,12 @@ public class Persegi extends BangunDatar{
         return this.sisi * 4;
     }
 
-    //mengembalikan nilai luas Persegi
+    //mengembalikan nilai diagonal Persegi
     public double getDiagonal(){
         return Math.sqrt(this.sisi * this.sisi + this.sisi * this.sisi);
     }
 
+    //mengeluarkan info persegi yaitu jmlSisi, warna, border, dan panjang sisi
     @Override
     public void printInfo(){
         super.printInfo();
