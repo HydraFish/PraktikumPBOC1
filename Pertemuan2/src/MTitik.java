@@ -13,7 +13,7 @@ public class MTitik {
         T1.geser(3, 4);
         T1.printTitik();
         System.out.println("Absis T1 = " + T1.getAbsis());
-System.out.println("Ordinat T1 = " + T1.getOrdinat());
+        System.out.println("Ordinat T1 = " + T1.getOrdinat());
 
         Titik T2 = T1;
         T2.printTitik();
