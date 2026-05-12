@@ -1,3 +1,10 @@
+/**
+ * File      : MainOperatorGenerik.java
+ * Deskripsi : Program berisi realisasi OperatorGenerik untuk menunjukkan penggunaan operator generik
+ * Nama      : Haydar Rafi' Sultansyah
+ * NIM       : 24060124120023
+ */
+
 public class MainOperatorGenerik {
     public static void main(String[] args) {
         OperatorGenerik op = new OperatorGenerik();

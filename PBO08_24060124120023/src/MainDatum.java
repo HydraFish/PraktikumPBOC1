@@ -1,3 +1,10 @@
+/**
+ * File      : MainDatum.java
+ * Deskripsi : Program berisi MainDatum untuk menunjukkan datum
+ * Nama      : Haydar Rafi' Sultansyah
+ * NIM       : 24060124120023
+ */
+
 public class MainDatum {
     public static void main(String[] args) {
         //Demonstrasi Datum dengan tipe String

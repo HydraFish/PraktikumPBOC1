@@ -1,3 +1,10 @@
+/**
+ * File      : OperatorGenerik.java
+ * Deskripsi : Program berisi OperatorGenerik untuk menunjukkan operator generik
+ * Nama      : Haydar Rafi' Sultansyah
+ * NIM       : 24060124120023
+ */
+
 public class OperatorGenerik {
     // Prosedur Generik Tukar untuk menukar dua nilai parameter
     public static <T> void Tukar(Datum<T> a, Datum<T> b) {
