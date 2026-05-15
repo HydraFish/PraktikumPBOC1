@@ -27,7 +27,7 @@ public class Anabul {
     //Setter
     //mengeset nama anabul
     public void setnama(String newNama){
-        this.Panggilan = newNama;
+        this.Nama = newNama;
     }
 
     //2.a tambahan prosedur setPanggilan untuk mengeset panggilan Anabul
