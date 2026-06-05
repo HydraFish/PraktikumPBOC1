@@ -4,6 +4,7 @@
  * Pengenalan klausa 'throw' dan 'throws'
  * Nama      : Haydar Rafi' Sultansyah
  * NIM       : 24060124120023
+ * Tanggal   : 16 April 2026
  */
 
 //kelas untuk mempraktekan penggunaan exception buatan sendiri

@@ -3,6 +3,7 @@
  * Deskripsi : Program penggunaan eksepsi menggunakan class library Java
  * Nama      : Haydar Rafi' Sultansyah
  * NIM       : 24060124120023
+ * Tanggal   : 16 April 2026
  */
 
 //kelas untuk menunjukkan exception pada array jika mencoba 

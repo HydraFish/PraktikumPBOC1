@@ -3,6 +3,7 @@
  * Deskripsi : Program untuk menunjukkan asersi
  * Nama      : Haydar Rafi' Sultansyah
  * NIM       : 24060124120023
+ * Tanggal   : 16 April 2026
  */
 
 // kelas Asersi1 memeriksa apakah nilai x positif atau negatif. Akan mengeluarkan asersi jika x adalah 0 (bukan positif atau negatif)
